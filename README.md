@@ -1,7 +1,35 @@
-# DrainageTwin
+# DrainageTwin - Prevenção de Enchentes com IA  
 
-Drainage Twin é um projeto voltado para detecção e prevenção de alagamentos e enchetes. O seu sistema será integrado com um modelo de predição, que alimentará as informações e os alertas no mapa. O projeto está na fase de MVP.
+**DrainageTwin** é uma solução que utiliza Inteligência Artificial para prever enchentes e alagamentos, protegendo vidas e bens ao emitir alertas em tempo real.  
 
+## Visão Geral  
+- **O que fazemos:** Previsão de alagamentos com base em dados meteorológicos, topográficos e históricos.  
+- **Por que é importante:** Reduzimos impactos das mudanças climáticas e protegemos comunidades vulneráveis.  
+- **Diferencial:** Uso de IA para análises rápidas e precisas.  
+
+## Como Funciona  
+1. **Coleta de Dados:** Informações meteorológicas (Tomorrow.io), topográficas (UFRGS), pluviométricas (INMET) e históricas (PUC-RS).  
+2. **Processamento:** Modelo LSTM identifica padrões de risco.  
+3. **Alertas:** Informações em tempo real sobre alagamentos e rotas seguras.  
+
+## Impacto  
+- Reduz vulnerabilidades sociais e custos de reconstrução.  
+- Promove segurança e planejamento urbano sustentável.  
+
+## Tecnologias Utilizadas  
+- **Big Data:** Processamento de grandes volumes de dados.  
+- **Inteligência Artificial:** Modelos preditivos (LSTM).
+
+## Licença  
+Este projeto está licenciado sob os termos da **[Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)**.  
+
+## Como Contribuir  
+Contribuições são bem-vindas!  
+1. Faça um fork do repositório.  
+2. Crie uma branch com sua feature:  
+   ```bash
+   git checkout -b feature/nova-funcionalidade
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 DrainageTwin is a Flutter project. This document will guide you through setting up the development environment, installing dependencies, and running the application on various platforms.
 
 ## Prerequisites
@@ -102,6 +130,3 @@ Due to file size restriction from Github and recording from simulator from Intel
 
 https://github.com/user-attachments/assets/3e97acc2-3ff3-4bfd-81fd-6fa5a1968176
 
-## License
-
-This project is licensed under the [Your License] License. See the LICENSE file for details.
